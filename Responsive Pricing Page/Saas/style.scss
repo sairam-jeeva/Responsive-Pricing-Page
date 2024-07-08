@@ -1,0 +1,311 @@
+/*Starter*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  }
+/*Saas*/
+$primary-color:red;
+$secondary-color:black;
+$second-secondary:#f5f5f5;
+
+  /*Registeration Here Css*/
+  .container{
+    width: 100%;
+    background-color: $secondary-color;
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;  
+    
+    h1,p{
+      margin: 0;
+    }
+    h1 {
+    font-size: 45px;
+    color: $second-secondary;
+    text-align: center;
+    align-items: center;
+    size: 10px;
+   } 
+   p{
+    margin: 0 auto;
+    color: $second-secondary;
+    align-items: center;
+    text-align: center;
+    line-height: 35px;
+   }
+  button{
+      padding: 0.6rem 3rem;
+      border: 2px solid $primary-color;
+      background-color: $primary-color;
+      color: $second-secondary;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: all 50ms ease-in;
+      margin:25px;
+      scroll-behavior:initial;
+     
+    
+    &:hover{
+      background-color:$second-secondary;
+      color:$primary-color;
+
+    }
+     
+  
+  }
+}
+  /*Registeration here Css*/
+  .maintitle{
+    padding: 40px;
+    p{
+    margin-top: 25px;
+  }
+}
+  /*Pricing Page Design
+  pricing Section*/ 
+  .pricing{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;;
+    padding: 2rem;
+  
+  /*Card 1 & 3 Design*/
+  .card-wrapper{
+    background-color:$second-secondary;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px ;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 0 5px 14px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+    padding: 2rem;
+    margin: 1rem;
+    transition: all 0.2s ease;
+   
+    &:hover{
+    transform: scale(1.1);
+    
+  &:hover .card-header>h2{
+    transform: scale(1.1);
+    color: $primary-color;
+    letter-spacing: 2;
+  }
+  } 
+  .card-header{
+    margin: 1rem;
+    text-align: center;
+  
+  img{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    mix-blend-mode:darken;
+  } 
+}
+  .card-details{
+    width: 100%;
+  
+  p{
+    padding: 0.6rem 1.5rem;
+    font-size: 0.8rem;
+    border-bottom: 1px solid $secondary-color;
+  }
+   
+  p:hover
+  {
+    background-color: $secondary-color;
+    color: $second-secondary;
+  }
+}
+  .card-button{
+    padding: 0.6rem 3rem;
+    border: 2px solid $primary-color;
+    background-color: $primary-color;
+    color: $second-secondary;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 50ms ease-in;
+    margin-top:25px;
+  
+  &:hover{
+    background-color: $second-secondary;
+    color:$primary-color;
+  }
+}
+}
+
+  /*Card Premium Design*/
+  .card-wrapper2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px ;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 5px 14px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+    padding: 2rem;
+    margin: 1rem;
+    transition: all 0.2s ease;
+    background-color:$primary-color;
+
+    
+  img{
+    display: flex;
+  }
+
+  &:hover{
+    transform: scale(1.1);
+  }
+  .card-header2{
+    margin: 1rem;
+    text-align: center;
+    margin-top:-20%;
+    
+    &:hover h2{
+      transform: scale(1.1);
+      color: $second-secondary;
+      letter-spacing: 2;
+    }
+  
+  h2{
+    color:$second-secondary;
+  }
+  img{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    mix-blend-mode:darken;
+  } 
+}
+  .card-details2{
+    width: 100%;
+  
+  p{
+    padding: 0.6rem 1.5rem;
+    font-size: 0.8rem;
+    border-bottom: 1px solid $second-secondary;
+  }
+  p:hover
+  {
+    background-color: $second-secondary;
+  }
+}
+.card-button2{
+    padding: 0.6rem 3rem;
+    border: 2px solid $second-secondary;
+    background-color:$second-secondary;
+    color: $primary-color;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 50ms ease-in;
+    margin-top: 40px;
+
+    &:hover{
+      background-color:$secondary-color;
+      color:$second-secondary;
+      border: 2px solid $second-secondary;
+    }
+  } 
+
+  /*premium ribbon Design*/
+  .premium-top{
+     margin-top:-13%;
+     height: 112.5px;
+    width: 108px;
+    margin-right: 84.5%;
+  }
+}
+}
+  
+  /*Contact Us Section design*/
+  .contact_us_query{
+    width: 100%;
+    height: 50%;
+    right: 50%;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid $secondary-color $secondary-color;
+    padding: 30px;
+    background-color:$secondary-color;
+    color: $second-secondary;
+    
+    p{
+    margin-top: 20px;
+    }
+  
+  #contact_button
+  { 
+    padding: 0.6rem 3rem;
+    border: 2px solid $second-secondary;
+    background-color:$primary-color;
+    color: $second-secondary;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 50ms ease-in;
+    margin-top: 40px;
+
+    &:hover{
+      background-color:black;
+      color:$second-secondary;
+      border: 2px solid $primary-color;
+    }
+  }
+  #contact_button:hover
+  { 
+    background-color: $second-secondary;
+    color:$primary-color;
+  }
+}
+@media screen and (min-width:600px) {
+  .container {
+    width: 100%;
+    background-color:$secondary-color;
+    height: 100vh;
+    background-size: cover;
+
+    h1{
+      font-size: 40px;
+      color: $second-secondary;
+      size: 10px;
+      padding: 40px; 
+      display: flex;
+      justify-content: center;
+      top: 50%;
+      }   
+}
+}
+
+@media screen and (max-width:1200px) {
+  .container {
+    width: 100%;
+    background-color:$secondary-color;
+    height: 100vh;
+    background-size: cover;
+  
+  h1{
+    font-size: 40px;
+    color: $second-secondary;
+    size: 10px;
+    padding: 40px; 
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    }   
+  }
+}
+/*# sourceMappingURL=style.css.map */
+

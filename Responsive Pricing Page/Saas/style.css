@@ -1,0 +1,278 @@
+/*Starter*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+/*Saas*/
+/*Registeration Here Css*/
+.container{
+  width: 100%;
+  background-color: black;
+  height: 70vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Horizontally center the contents */
+  align-items: center; /* Vertically center the contents */
+}
+.container h1, .container p {
+  margin: 0;
+}
+.container h1 {
+  font-size: 45px;
+  color: #f5f5f5;
+  text-align: center;
+  align-items: center;
+  size: 10px;
+}
+.container p{
+  margin: 0 auto;
+  color: #f5f5f5;
+  align-items: center;
+  text-align: center;
+  line-height: 35px;
+}
+.container button{
+  padding: 0.6rem 3rem;
+  border: 2px solid red;
+  background-color: red;
+  color: #f5f5f5;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 50ms ease-in;
+  margin: 25px;
+  scroll-behavior: initial;
+}
+.container button:hover{
+  background-color: #f5f5f5;
+  color: red;
+}
+
+/*Registeration here Css*/
+.maintitle{
+  padding: 40px;
+}
+.maintitle p{
+  margin-top: 25px;
+}
+
+/*Pricing Page Design
+pricing Section*/
+.pricing{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 2rem;
+  /*Card 1 & 3 Design*/
+  /*Card Premium Design*/
+}
+.pricing .card-wrapper{
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 450px;
+  border-radius: 20px;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+  padding: 2rem;
+  margin: 1rem;
+  transition: all 0.2s ease;
+}
+.pricing .card-wrapper:hover{
+  transform: scale(1.1);
+}
+.pricing .card-wrapper:hover:hover .card-header > h2{
+  transform: scale(1.1);
+  color: red;
+  letter-spacing: 2;
+}
+.pricing .card-wrapper .card-header{
+  margin: 1rem;
+  text-align: center;
+}
+.pricing .card-wrapper .card-header img{
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  mix-blend-mode: darken;
+}
+.pricing .card-wrapper .card-details{
+  width: 100%;
+}
+.pricing .card-wrapper .card-details p{
+  padding: 0.6rem 1.5rem;
+  font-size: 0.8rem;
+  border-bottom: 1px solid black;
+}
+.pricing .card-wrapper .card-details p:hover{
+  background-color: black;
+  color: #f5f5f5;
+}
+.pricing .card-wrapper .card-button{
+  padding: 0.6rem 3rem;
+  border: 2px solid red;
+  background-color: red;
+  color: #f5f5f5;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 50ms ease-in;
+  margin-top: 25px;
+}
+.pricing .card-wrapper .card-button:hover{
+  background-color: #f5f5f5;
+  color: red;
+}
+.pricing .card-wrapper2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+  padding: 2rem;
+  margin: 1rem;
+  transition: all 0.2s ease;
+  background-color: red;
+  /*premium ribbon Design*/
+}
+.pricing .card-wrapper2 img{
+  display: flex;
+}
+.pricing .card-wrapper2:hover {
+  transform: scale(1.1);
+}
+.pricing .card-wrapper2 .card-header2 {
+  margin: 1rem;
+  text-align: center;
+  margin-top: -20%;
+}
+.pricing .card-wrapper2 .card-header2:hover h2 {
+  transform: scale(1.1);
+  color: #f5f5f5;
+  letter-spacing: 2;
+}
+.pricing .card-wrapper2 .card-header2 h2 {
+  color: #f5f5f5;
+}
+.pricing .card-wrapper2 .card-header2 img {
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  mix-blend-mode: darken;
+}
+.pricing .card-wrapper2 .card-details2 {
+  width: 100%;
+}
+.pricing .card-wrapper2 .card-details2 p {
+  padding: 0.6rem 1.5rem;
+  font-size: 0.8rem;
+  border-bottom: 1px solid #f5f5f5;
+}
+.pricing .card-wrapper2 .card-details2 p:hover {
+  background-color: #f5f5f5;
+}
+.pricing .card-wrapper2 .card-button2 {
+  padding: 0.6rem 3rem;
+  border: 2px solid #f5f5f5;
+  background-color: #f5f5f5;
+  color: red;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 50ms ease-in;
+  margin-top: 40px;
+}
+.pricing .card-wrapper2 .card-button2:hover {
+  background-color: black;
+  color: #f5f5f5;
+  border: 2px solid #f5f5f5;
+}
+.pricing .card-wrapper2 .premium-top {
+  margin-top: -13%;
+  height: 112.5px;
+  width: 108px;
+  margin-right: 84.5%;
+}
+
+/*Contact Us Section design*/
+.contact_us_query {
+  width: 100%;
+  height: 50%;
+  right: 50%;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid black black;
+  padding: 30px;
+  background-color: black;
+  color: #f5f5f5;
+}
+.contact_us_query p {
+  margin-top: 20px;
+}
+.contact_us_query #contact_button {
+  padding: 0.6rem 3rem;
+  border: 2px solid #f5f5f5;
+  background-color: red;
+  color: #f5f5f5;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 50ms ease-in;
+  margin-top: 40px;
+}
+.contact_us_query #contact_button:hover {
+  background-color: black;
+  color: #f5f5f5;
+  border: 2px solid red;
+}
+.contact_us_query #contact_button:hover {
+  background-color: #f5f5f5;
+  color: red;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+    background-size: cover;
+  }
+  .container h1 {
+    font-size: 40px;
+    color: #f5f5f5;
+    size: 10px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+    background-size: cover;
+  }
+  .container h1 {
+    font-size: 40px;
+    color: #f5f5f5;
+    size: 10px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+  }
+}
+/*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */
